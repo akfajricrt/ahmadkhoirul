@@ -35,7 +35,7 @@ body {
 .banner h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 25px;
     padding-left: 20px;
 }
 
@@ -85,16 +85,13 @@ body {
 
 
 
-
-
-
 .about h3,
 .service h3,
 .portfolio h3,
 .contact h3 {
     font-weight: 700;
     font-size: 30px;
-    color: #228300;
+    color: #767e73;
     text-align: center;
 
 }
