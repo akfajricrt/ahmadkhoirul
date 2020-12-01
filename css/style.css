@@ -105,6 +105,7 @@ body {
 
 footer {
     background-color: #F8FFE4;
+    font-size: 14px;
 }
 
 
@@ -136,6 +137,44 @@ hr {
     width: 10%;
     margin-top: 30px;
 
+}
+
+.ukuran-font,
+.label-text {
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+
+}
+
+    {
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+
+}
+
+.form-control {
+
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px;
+    color: #ebebeb;
+    background-color: #FCFFF3;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2), 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.kirim {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0 0 20px 0;
+}
+
+.justify {
+    justify-content: center;
 }
 
 
@@ -174,4 +213,30 @@ hr {
         text-align: left;
 
     }
+
+    footer {
+
+        font-size: 14px;
+    }
+
+    .ukuran-font,
+    .label-text {
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+
+    }
+
+    .form-control {
+
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+
+    }
+
+    .justify {
+        justify-content: start;
+    }
+
 }

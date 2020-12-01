@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/535349b4e2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="image/logo.png">
 
     <title>Ahmad Khoirul Fajeri</title>
   </head>
@@ -82,15 +82,27 @@
               </div>
               <div class="col-lg-6 paragraf">
                   <p class="pt-5 card-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                  <div class="row pt-5">
+                  <div class="row pt-5 justify">
+                    
                     <div class="col-2">
-                      <img src="image/icon/fb.png" alt="" width="30px">
+                      <a href="https://api.whatsapp.com/send?phone=6282269079575&text=Hai%20Fajri%0A%0A" target="blank">
+                        <img src="image/icon/wa.png" alt="" width="30px">
+                      </a>
                     </div>
                     <div class="col-2">
-                      <img src="image/icon/tw.png" alt="" width="30px">
+                      <a href="">
+                        <img src="image/icon/fb.png" alt="#" width="30px">
+                      </a>
                     </div>
                     <div class="col-2">
-                      <img src="image/icon/ig.png" alt="" width="30px">
+                      <a href="">
+                        <img src="image/icon/tw.png" alt="" width="30px">
+                      </a>
+                    </div>
+                    <div class="col-2">
+                      <a href="https://instagram.com/a_khoirulfajri" target="blank">
+                        <img src="image/icon/ig.png" alt="" width="30px">
+                      </a>
                     </div>
                   </div>
               </div>
@@ -214,51 +226,46 @@
               <div class="row justify-content-between mt-4">
                   <div class="col">
                       <div>
-                          <a href="#home"><img src="img/logo.png" alt=""></a>
+                          <a href="#home"><img src="image/logo.png" alt="" width="60px"></a>
                       </div>
                   </div>
-                  <div class="col-4 text-right mt-3">
-                      <a href="" class="mr-2">
-                          <img src="img/social/fb.png" alt="">
-                      </a>
-                      <a href="" class="mr-2">
-                          <img src="img/social/tw.png" alt="">
-                      </a>
-                      <a href="">
-                          <img src="img/social/ig.png" alt="">
-                      </a>
-                  </div>
+                  
               </div>
               <div class="row pb-5">
                   <div class="col-lg-6 mt-4">
   
-                      <p class="text-dark"><i class="fas fa-map-marker-alt ml-2 text-secondary ukuran-font "></i> Jl.Krapyak wetan
-                          , Panggungharjo, Sewon, Bantul,yogyakarta</p>
-                      <p class="text-dark"><i class="fas fa-phone-alt ml-2  text-secondary ukuran-font"></i> No. +6282269079575</p>
-                      <p class="text-dark"><i class="fas fa-mobile-alt ml-2  text-secondary ukuran-font"></i> No. +628
-                          82269079575</p>
-                      <p class="text-dark"><i class="fas fa-envelope ml-2  text-secondary ukuran-font"></i>
+                      <p class="text-dark ukuran-font"><i class="fas fa-map-marker-alt ml-2 "></i> Jl.Krapyak wetan
+                          , Panggungharjo, Sewon, Bantul, Yogyakarta</p>
+                      <p class="text-dark ukuran-font"><i class="fas fa-phone-alt ml-2"></i> No. +62 822 6907 9575</p>
+                      <p class="text-dark ukuran-font"><i class="fas fa-mobile-alt ml-2"></i> No. +628
+                          22 6907 9575</p>
+                      <p class="text-dark ukuran-font"><i class="fas fa-envelope ml-2"></i>
                           ahmadkhoirulfajri664@gmail.com
                       </p>
                   </div>
                   <div class="col-lg-6 mt-4">
                       <form name="contact" netlify>
                           <div class="form-group">
-                              <label for="inputName" class="text-white text-success">Nama
+                              <label for="inputName" class="text-white text-success label-text">Nama
                                   Lengkap</label>
                               <input type="text" name="name" class="form-control" id="inputAddress"
                                   placeholder="Isikan Nama Lengkap Anda" >
                           </div>
                           <div class="form-group">
-                              <label for="inputEmail4" class="text-success">Email</label>
+                              <label for="inputEmail4" class="text-success label-text">Email</label>
                               <input type="email" name="email" class="form-control" id="inputEmail4"
                                   placeholder="Isikan Alamat Email Anda">
                           </div>
                           <div class="form-group">
-                              <label for="inputAddress" class="text-white text-success">Address </label>
-                              <input type="text" class="form-control" id="inputAddress" placeholder="Isikan Alamat Anda">
+                              <label for="inputAddress" class="text-white text-success label-text" >Address </label>
+                              <input type="text" name="address" class="form-control" id="inputAddress" placeholder="Isikan Alamat Anda">
                           </div>
-                          <button type="submit" class="btn btn-success">Kirim</button>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1" class="text-white text-success label-text">Address</label>
+                            <textarea name="address" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Isikan Alamat Anda"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-success kirim">Kirim</button>
                       </form>
                   </div>
               </div>
@@ -273,7 +280,7 @@
           <div class="container">
               <div class="row mt-3 text-center">
                   <div class="col">
-                      <p style="color:#333333;">Copyright 2020 @ Ahmad Khoirul Fajri</p>
+                      <p style="color:#80924e;">Copyright 2020 @ Ahmad Khoirul Fajri</p>
                       
                   </div>
               </div>
