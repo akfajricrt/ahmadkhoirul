@@ -44,7 +44,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    padding-left: 20px;
+
 }
 
 .banner p {
@@ -52,7 +52,7 @@ body {
     color: #8B8BA5;
     font-size: 18px;
     margin-top: 5px;
-    padding-left: 20px;
+
 
 }
 
@@ -61,7 +61,7 @@ body {
     border-radius: 20px 0 20px 0;
     padding-left: 51px;
     padding-right: 51px;
-    margin-left: 20px;
+
     font-weight: 700;
 }
 
