@@ -109,6 +109,18 @@ body {
 footer {
     background-color: #F8FFE4;
     font-size: 14px;
+    position: relative;
+
+}
+
+.up {
+    position: absolute;
+    bottom: 80px;
+    border-radius: 50px;
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ffea76;
+    text-align: end;
+
 }
 
 
@@ -167,6 +179,7 @@ footer {
 
 
 }
+
 
 .class-input1 {
     padding: 20px !important;
