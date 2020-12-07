@@ -11,10 +11,12 @@ body {
 
 }
 
+
+
 .nav-item .nav-link {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-    color: #0C663D;
+    color: #AEAEAE !important;
 }
 
 .nav-item.active a {
@@ -101,13 +103,13 @@ body {
 
 
 
-.contact {
+/*.contact {
     background-color: #FCFFF3;
 
-}
+}*/
 
 footer {
-    background-color: #F8FFE4;
+
     font-size: 14px;
     position: relative;
 
@@ -115,30 +117,35 @@ footer {
 
 .up {
     position: absolute;
-    bottom: 80px;
+    position: fixed;
+    bottom: 100px;
     border-radius: 50px;
     box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.2);
     background-color: #ffea76;
-    text-align: end;
+
+
 
 }
 
 
 
 .paragraf {
-    text-align: justify;
+    text-align: center;
+    line-height: 30px;
     font-family: 'Quicksand', sans-serif;
-    color: #8B8BA5;
+    color: #636363;
 }
 
 .card-body h5 {
     font-weight: 700;
+
     font-family: 'Quicksand', sans-serif;
 
 }
 
 .card-body p {
     font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
 
 }
 
@@ -151,9 +158,10 @@ footer {
 
 .ukuran-font,
 .label-text {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px !important;
+    color: #8B8BA5 !important;
 
 
 }
@@ -163,7 +171,7 @@ footer {
 
     font-size: 13px;
     font-weight: 400;
-    background-color: #FCFFF3;
+    /*background-color: #FCFFF3;*/
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.2), 3px 3px 5px rgba(0, 0, 0, 0.2);
 
 
@@ -202,6 +210,11 @@ footer {
 
 
 @media (min-width: 992px) {
+
+    .nav-item .nav-link {
+        font-size: 20px;
+
+    }
 
     .image img {
         display: block;
@@ -248,7 +261,8 @@ footer {
     .label-text {
         font-weight: 400;
         font-family: 'Quicksand', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
+        color:
 
     }
 
