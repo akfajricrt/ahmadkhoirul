@@ -15,19 +15,19 @@ body {
 
 .nav-item .nav-link {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     color: #AEAEAE !important;
 }
 
 .nav-item.active a {
     color: #F9B234 !important;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
 .nav-item:hover a {
     color: #F9B234 !important;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner {
